@@ -1,9 +1,9 @@
 ---
-title: Backups
-description: Dumping the database to a file and uploading it to S3
+title: "Backups"
+description: "Dumping the database to a file and uploading it to S3"
 ---
 
-`backup.py` takes a full database dump (schema + data, every table) and uploads it to S3, using [Infisical-sourced credentials](/infisical).
+`backup.py` takes a full database dump (schema \+ data, every table) and uploads it to S3, using [Infisical-sourced credentials](/infisical).
 
 ## How it works
 
@@ -21,6 +21,10 @@ uv run backup.py
 ## Multiple tables
 
 `pg_dump -d <database>` (no `-t` flag) dumps every table in the database in dependency order. Nothing extra is needed to back up more than one table — you'd only add `-t <table>` if you wanted a single-table dump instead.
+
+```text
+this is a test to see hwo git commits work
+```
 
 ## Orchestrating with Prefect
 
