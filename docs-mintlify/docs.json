@@ -29,9 +29,12 @@
   "navbar": {
     "links": [
       {
-        "label": "Repo",
-        "href": "https://github.com"
+        "type": "github",
+        "href": "https://github.com/gavinfancher/infisical-test"
       }
     ]
+  },
+  "search": {
+    "prompt": "Search backup docs..."
   }
 }
