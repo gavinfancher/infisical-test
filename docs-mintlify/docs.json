@@ -34,7 +34,14 @@
       }
     ]
   },
-  "search": {
-    "prompt": "Search backup docs..."
+  "contextual": {
+    "options": [
+      "copy"
+    ]
+  },
+  "footer": {
+    "socials": {
+      "github": "https://github.com/gavinfancher"
+    }
   }
 }
