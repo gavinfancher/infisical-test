@@ -1,0 +1,37 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "Postgres Backup Practice",
+  "colors": {
+    "primary": "#336791",
+    "light": "#5A9BC7",
+    "dark": "#1F4A6B"
+  },
+  "navigation": {
+    "groups": [
+      {
+        "group": "Get Started",
+        "pages": [
+          "index",
+          "infisical"
+        ]
+      },
+      {
+        "group": "Backups",
+        "pages": [
+          "backups",
+          "streaming-backups",
+          "restore"
+        ]
+      }
+    ]
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Repo",
+        "href": "https://github.com"
+      }
+    ]
+  }
+}
